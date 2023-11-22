@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: digger run
-        uses: diggerhq/digger@develop
+        uses: diggerhq/digger@v0.2.6
         with:
           setup-aws: false
           disable-locking: true
