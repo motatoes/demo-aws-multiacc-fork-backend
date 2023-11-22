@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: digger run
-        uses: diggerhq/digger@v0.2.6
+        uses: diggerhq/digger@fix/fail-gracefully-if-teams-fetch-failed
         with:
           setup-aws: false
           disable-locking: true
